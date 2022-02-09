@@ -9,11 +9,14 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  height: -webkit-fill-available;
 }
 
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
+  height: 100vh;
+  height: -webkit-fill-available;
   background-color: #222;
   /* background-color: #60b347; */
 }
@@ -21,12 +24,12 @@ body {
 /* LAYOUT */
 header {
   position: relative;
-  height: 35vh;
+  height: 35%;
   border-bottom: 7px solid #eee;
 }
 
 main {
-  height: 65vh;
+  height: 65%;
   color: #eee;
   display: flex;
   align-items: center;
